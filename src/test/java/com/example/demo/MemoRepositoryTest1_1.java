@@ -73,7 +73,7 @@ public class MemoRepositoryTest1_1 {
 	@Test
 	public void 데이터수정() {
 		Memo memo = new Memo(1, "글이수정되었습니다");
-		memoRepository.save(memo);
+		memoRepository.save(memo); //save
 
 	}
 	
