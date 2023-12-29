@@ -59,4 +59,5 @@ public class MemoRepositoryTest2 {
 		//deleteby는 기본적으로 롤백처리가 되어 결과가 반영되지 않음
 	}
 	
+	
 }

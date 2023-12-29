@@ -31,5 +31,20 @@ public class MemoRepositoryTest3 {
 			System.out.println(memo);
 		}
 	}
+	@Test
+	public void 번호가10와20사이인_메모검색() {
+		List<Memo> list = memoRepository.get3(10, 20);
+		
+		for(Memo memo : list) {
+			System.out.println(memo);
+		}
+	}
+	@Test
+	public void 번호를기준으로역정렬한_메모검색() {
+		List<Memo> list = memoRepository.get4();
+		for(Memo memo : list) {
+			System.out.println(memo);
+		}
+	}
 
 }
